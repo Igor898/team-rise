@@ -16,11 +16,11 @@ export default function CTA() {
           <div className="mt-10 flex flex-col sm:flex-row gap-4">
             <input
               placeholder="Имя"
-              className="px-4 py-3 rounded-lg text-primary w-full"
+              className="px-4 py-3 rounded-lg text-primary w-full focus:bg-white/95"
             />
             <input
               placeholder="Телефон"
-              className="px-4 py-3 rounded-lg text-primary w-full"
+              className="px-4 py-3 rounded-lg text-primary w-full focus:bg-white/95"
             />
             <button className="bg-white text-primary px-6 py-3 rounded-lg font-medium">
               Запросить демо

@@ -27,7 +27,7 @@ export default function Roles() {
           {roles.map((role) => (
             <div
               key={role.title}
-              className="border border-border rounded-xl p-8 bg-white"
+              className="border border-border rounded-xl p-8 bg-white interactive-card"
             >
               <h3 className="text-xl font-medium">{role.title}</h3>
               <p className="mt-4 text-muted">{role.text}</p>

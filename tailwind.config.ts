@@ -11,7 +11,7 @@ const config: Config = {
         primary: "#111827",
         muted: "#6B7280",
         border: "#E5E7EB",
-        soft: "#F9FAFB",
+        soft: "#F4F9FF",
       },
     },
   },

@@ -2,6 +2,67 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-white text-primary antialiased;
+@layer base {
+  body {
+    @apply bg-white text-primary antialiased;
+  }
+
+  a,
+  button,
+  input {
+    @apply transition-all duration-200 ease-out;
+  }
+
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible {
+    @apply outline-none ring-2 ring-primary/25 ring-offset-2;
+  }
+
+  button:not(:disabled):hover {
+    transform: translateY(-2px);
+  }
+
+  button:not(:disabled):active {
+    transform: translateY(0);
+  }
+}
+
+@layer utilities {
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-up {
+    animation: fade-up 0.55s ease-out both;
+  }
+
+  .animate-fade-up-delay {
+    animation: fade-up 0.65s ease-out 0.1s both;
+  }
+
+  .interactive-card {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .interactive-card:hover {
+    transform: translateY(-4px);
+    @apply shadow-lg shadow-black/5;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

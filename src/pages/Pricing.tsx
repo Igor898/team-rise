@@ -40,7 +40,7 @@ export default function Pricing() {
                   {plan.description}
                 </p>
 
-                <button className="mt-8 w-full bg-primary text-white py-3 rounded-lg">
+                <button className="mt-8 w-full bg-[#3499FF] text-white py-3 rounded-lg">
                   Выбрать
                 </button>
               </div>

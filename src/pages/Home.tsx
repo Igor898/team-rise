@@ -6,7 +6,7 @@ import HowItWorks from "../app/sections/HowItWorks";
 import Library from "../app/sections/Library";
 import Roles from "../app/sections/Roles";
 import CEO from "../app/sections/CEO";
-import CTA from "../app/sections/CTA";
+import Footer from "../app/layout/Footer";
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
       <Library />
       <Roles />
       <CEO />
-      <CTA />
+      <Footer />
     </>
   );
 }

@@ -1,5 +1,6 @@
 import Navbar from "../app/layout/Navbar";
 import Container from "../app/layout/Container";
+import Footer from "../app/layout/Footer";
 
 const advantages = [
   "Система вместо хаоса",
@@ -30,6 +31,7 @@ export default function Advantages() {
           </div>
         </Container>
       </section>
+      <Footer />
     </>
   );
 }

@@ -1,5 +1,6 @@
 import Navbar from "../app/layout/Navbar";
 import Container from "../app/layout/Container";
+import Footer from "../app/layout/Footer";
 
 export default function Product() {
   const modules = [
@@ -62,6 +63,7 @@ export default function Product() {
           </div>
         </Container>
       </section>
+      <Footer />
     </>
   );
 }

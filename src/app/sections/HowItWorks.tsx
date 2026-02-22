@@ -23,7 +23,7 @@ export default function HowItWorks() {
   ];
 
   return (
-    <section className="py-24">
+    <section className="py-24 bg-soft">
       <Container>
         <h2 className="text-3xl font-semibold mb-16">
           Как работает продукт
@@ -31,12 +31,12 @@ export default function HowItWorks() {
 
         <div className="grid md:grid-cols-3 gap-12">
           {steps.map((step) => (
-            <div key={step.title} className="interactive-card">
-              <div className="overflow-hidden rounded-xl border border-border bg-soft shadow-sm">
+            <div key={step.title}>
+              <div className="overflow-hidden rounded-xl border border-border bg-soft">
                 <img
                   src={step.image}
                   alt={step.alt}
-                  className="w-full h-40 object-cover"
+                  className="w-full object-cover"
                 />
               </div>
               <h3 className="mt-6 text-xl font-medium">{step.title}</h3>

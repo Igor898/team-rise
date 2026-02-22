@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Container from "../layout/Container";
 
 export default function Hero() {
@@ -18,9 +19,9 @@ export default function Hero() {
               <button className="bg-[#3499FF] text-white px-6 py-3 rounded-lg">
                 Запросить демо
               </button>
-              <button className="border border-border px-6 py-3 rounded-lg bg-white">
+              <Link to="/product" className="border border-border px-6 py-3 rounded-lg bg-white">
                 Подробнее
-              </button>
+              </Link>
             </div>
           </div>
 

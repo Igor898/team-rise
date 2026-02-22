@@ -27,9 +27,6 @@ export default function Library() {
           <h2 className="text-4xl font-semibold text-primary">
             Использование сервиса на 100% безопасно
           </h2>
-          <button className="self-start sm:self-auto bg-white text-[#3499FF] border border-[#9EC9FF] rounded-full px-6 py-2.5 shadow-[0_6px_18px_rgba(52,153,255,0.22)]">
-            #Возможности
-          </button>
         </div>
 
         <div className="mt-10 rounded-2xl border border-border bg-white p-6 md:p-8 shadow-[0_10px_30px_rgba(16,24,40,0.06)]">

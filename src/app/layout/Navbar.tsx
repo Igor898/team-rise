@@ -25,9 +25,9 @@ export default function Navbar() {
           </nav></div>
 
         <div className="flex gap-4">
-          <button className="text-sm px-4 py-2 rounded-lg border border-[#9EC9FF] text-[#3499FF] hover:bg-[#3499FF] hover:text-white transition">
+          <a href="https://sso.risestaff.kz/login?redirect_uri=https%3A%2F%2Fstaff.risestaff.kz" target="_blank" className="text-sm px-4 py-2 rounded-lg border border-[#9EC9FF] text-[#3499FF] hover:bg-[#3499FF] hover:text-white transition">
             Войти
-          </button>
+          </a>
           <Link to="/pricing" className="bg-[#3499FF] text-white text-sm px-4 py-2 rounded-lg">
             Подобрать тариф
           </Link>

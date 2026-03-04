@@ -16,10 +16,10 @@ export default function Hero() {
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
-              <button className="bg-[#3499FF] text-white px-6 py-3 rounded-lg">
+              <a href="https://rise-staff.vercel.app/" target="_blank" className="bg-[#3499FF] text-white px-6 py-3 rounded-lg hover:bg-[#3499FF]/90 transition text-center">
                 Запросить демо
-              </button>
-              <Link to="/product" className="border border-border px-6 py-3 rounded-lg bg-white">
+              </a>
+              <Link to="/product" className="border border-border px-6 py-3 rounded-lg bg-white hover:bg-gray-50 transition text-center">
                 Подробнее
               </Link>
             </div>

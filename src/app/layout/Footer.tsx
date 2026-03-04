@@ -92,6 +92,7 @@ export default function Footer() {
 
           <div className="mt-10 border-t border-white/35 pt-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <p className="text-white font-semibold text-3xl">TR2.kz</p>
+            <a className="text-white/80 text-xl" href="https://rise-staff.vercel.app/privacy-policy.html" target="_blank">Политика конфиденциальности</a>
             <p className="text-white/80 text-2xl">© 2026 Все права защищены</p>
           </div>
         </div>
